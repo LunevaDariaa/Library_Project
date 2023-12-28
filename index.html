@@ -23,14 +23,36 @@
             <p class="pages-num content">Pages:</p>
 
             <div class="buttons">
-              <button class="read-button">Read</button>
-              <button class="read-button">Remove</button>
+              <button class="read-button main-btn">Read</button>
+              <button class="remove-button main-btn">Remove</button>
             </div>
           </div>
         </div>
       </div>
 
       <button class="add-button">+</button>
+
+      <div class="modal">
+        <h1>Add a new book!</h1>
+        <form class="book-form">
+          <div class="book-input">
+            <label for="title">Title:</label><br />
+            <input class="title-input" type="text" />
+          </div>
+
+          <div class="book-input">
+            <label for="author">Author:</label>
+            <input class="author-input" type="text" />
+          </div>
+
+          <div class="book-input">
+            <label for="pages">Pages:</label>
+            <input class="pages-input" type="number" />
+          </div>
+          <button class="submit-button">Add Book</button>
+        </form>
+      </div>
     </main>
+    <div class="overlay hidden"></div>
   </body>
 </html>
