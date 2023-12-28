@@ -16,7 +16,7 @@
 
     <main>
       <div class="books">
-        <div class="book">
+        <!-- <div class="book">
           <div class="book-content">
             <p class="title content">Title:</p>
             <p class="author content">Author:</p>
@@ -27,27 +27,27 @@
               <button class="remove-button main-btn">Remove</button>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
 
       <button class="add-button">+</button>
 
-      <div class="modal">
+      <div class="modal hidden">
         <h1>Add a new book!</h1>
-        <form class="book-form">
+        <form id="book-form">
           <div class="book-input">
-            <label for="title">Title:</label><br />
-            <input class="title-input" type="text" />
+            <label for="title-input">Title:</label><br />
+            <input id="title-input" type="text" />
           </div>
 
           <div class="book-input">
-            <label for="author">Author:</label>
-            <input class="author-input" type="text" />
+            <label for="author-input">Author:</label>
+            <input id="author-input" type="text" />
           </div>
 
           <div class="book-input">
-            <label for="pages">Pages:</label>
-            <input class="pages-input" type="number" />
+            <label for="pages-input">Pages:</label>
+            <input id="pages-input" type="number" />
           </div>
           <button class="submit-button">Add Book</button>
         </form>

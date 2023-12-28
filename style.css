@@ -212,6 +212,8 @@ header {
   background-color: rgb(249, 251, 251);
   width: 500px;
   height: 400px;
+  backdrop-filter: none;
+  z-index: 10;
 }
 
 .modal h1 {
@@ -222,7 +224,7 @@ header {
   text-align: center;
 }
 
-.book-form {
+#book-form {
   box-sizing: border-box;
   margin: 10px;
 }
