@@ -16,18 +16,18 @@
 
     <main>
       <div class="books">
-        <!-- <div class="book">
+        <div class="book">
           <div class="book-content">
-            <p class="title content">Title:</p>
-            <p class="author content">Author:</p>
-            <p class="pages-num content">Pages:</p>
+            <p class="title content">Title: Harry Potter</p>
+            <p class="author content">Author: J. K. Rowling</p>
+            <p class="pages-num content">Pages: 418</p>
 
             <div class="buttons">
               <button class="read-button main-btn">Read</button>
               <button class="remove-button main-btn">Remove</button>
             </div>
           </div>
-        </div> -->
+        </div>
       </div>
 
       <button class="add-button">+</button>
@@ -37,17 +37,17 @@
         <form id="book-form">
           <div class="book-input">
             <label for="title-input">Title:</label><br />
-            <input id="title-input" type="text" />
+            <input id="title-input" type="text" maxlength="30" />
           </div>
 
           <div class="book-input">
             <label for="author-input">Author:</label>
-            <input id="author-input" type="text" />
+            <input id="author-input" type="text" maxlength="30" />
           </div>
 
           <div class="book-input">
             <label for="pages-input">Pages:</label>
-            <input id="pages-input" type="number" />
+            <input id="pages-input" type="number" maxlength="5" />
           </div>
           <button class="submit-button">Add Book</button>
         </form>

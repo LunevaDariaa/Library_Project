@@ -195,7 +195,8 @@ header {
 }
 .main-btn {
   margin: 10px;
-  padding: 10px 30px;
+  padding: 10px 20px;
+  width: 100%;
   font-weight: 900;
   border-radius: 8px;
   font-size: 18px;
@@ -267,4 +268,12 @@ input {
   left: 36%;
   margin: 10px 0;
   font-size: 20px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  background-color: rgb(224, 221, 221);
 }
